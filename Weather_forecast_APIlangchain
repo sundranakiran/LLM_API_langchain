@@ -1,0 +1,21 @@
+LLM_API_langchain/
+│
+├── Weather_forecast_APIlangchain/   # Weather Forecast Project Directory
+│   ├── weather_checker.py           # Main Python script for weather forecast
+│   ├── README.md                    # Documentation for this specific project
+│   └── __init__.py                  # Marks it as a Python package (optional)
+│
+├── requirements.txt                 # Dependencies for the entire repository
+├── .env                             # Store all API keys and credentials
+├── LICENSE                          # License for the repository
+├── README.md                        # Main README for the entire repository
+└── .gitignore                       # Files to ignore in version control
+
+# Weather Forecast API with LangChain 🌦️
+
+This project uses **LangChain** to integrate **Open-Meteo API** and **Nominatim API** to provide weather forecasts for cities in **Pakistan**. The tool allows users to input a city name and returns the **current temperature** and **wind speed**.
+
+## **Features**
+- Retrieve real-time weather information using **Open-Meteo API**.
+- Convert city names to coordinates using **Nominatim API**.
+- Handle API failures and user input errors gracefully.
